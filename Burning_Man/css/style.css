@@ -1,0 +1,190 @@
+@font-face {
+  font-family: 'Open Sans';           
+  src: url('../fonts/OpenSans-Regular.ttf');     
+  font-weight: 400;                  
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Anton';           
+  src: url('../fonts/Anton-Regular.ttf');     
+  font-weight: 400;                  
+  font-style: normal;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Anton', sans-serif;
+	color: #000;
+	font-size: 16px;
+ background: #fff;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h5, h6 {
+	font-family: 'Anton';
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2 {	
+	font-size: 50px;
+	margin-bottom: 58px;
+	letter-spacing: 0.05em;
+}
+
+h3 {
+ font-size: 25px;
+ margin-bottom: 29px;
+ letter-spacing: 0.03em;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+p {	
+	margin: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+section {
+	padding-top: 113px;
+}
+
+.header {
+	width: auto;
+	/*height: 900px;*/
+	padding-top: 57px;
+	background: url('../img/header-bg.jpg') no-repeat center top / cover;
+	color: #fff;
+	padding-bottom: 322px;
+}
+
+header a {
+	color: #fff;
+}
+
+.menu {
+	display: flex;
+}
+
+.nav {
+	display: flex;
+	align-items: center;	
+}
+
+.menu li a {
+	margin-right: 40px;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+}
+
+.tel {
+	margin-left: auto;
+	font-size: 17px;
+	letter-spacing: 0.1em;
+}
+
+.logo {
+	margin-right: 70px;
+}
+
+.offer {
+	text-transform: uppercase;
+	padding-top: 216px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.offer p {
+	font-size: 30px;
+}
+
+.offer h1 {
+	font-size: 100px;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	letter-spacing: 0.02em;
+}
+
+.btn {
+	display: block;
+	width: 238px;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid #fff;
+}
+
+.description { 
+ display: flex;
+ justify-content: space-between;
+}
+
+.description p {
+		font-family: 'Open Sans';
+		font-weight: 400;
+		line-height: 1.6em;
+}
+
+.desc-left, .desc-right {
+	/*display: flex;*/
+	width: 567px;
+	text-align: justify;
+}
+
+.gallery {
+	display: flex;
+	margin-top: 67px;
+	justify-content: space-between;
+}
+
+.footer-text {
+	display: flex;
+	padding: 114px 0;
+	font-family: 'Open Sans';
+	font-size: 15px;
+}
+
+.footer-text p {
+	margin-right: 67px;
+}
+
+.menu-open {
+ background: none;
+ border: none;
+ display: none;
+ margin-left: 20px;
+ outline: none;
+}
+
+.header .show-menu {
+	display: block;
+	position: absolute;
+	background: rgb(0,0,0,0.8);
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 40px 50px 40px 15%;
+}
+
+.header .show-menu li a {	
+	font-size: 40px;
+}
