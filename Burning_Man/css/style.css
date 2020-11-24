@@ -175,6 +175,11 @@ a {
  outline: none;
 }
 
+.menu-open img{
+	width: 70px;
+	height: 70px;
+}
+
 .header .show-menu {
 	display: block;
 	position: absolute;
