@@ -13,12 +13,12 @@
 	<header id="header" class="header">
 		<div class="container">
 			<div class="nav">
-				<img src="./svg/logo.svg" alt="Burning Man" class="logo">
+				<img name="home" src="./svg/logo.svg" alt="Burning Man" class="logo">
 				<ul class="menu">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Tickets</a></li>
-					<li><a href="#">Contacts</a></li>
+					<li><a class="scroll-to" href="#home">Home</a></li>
+					<li><a class="scroll-to" href="#about">About</a></li>
+					<li><a class="scroll-to" href="#tickets">Tickets</a></li>
+					<li><a class="scroll-to" href="#contacts">Contacts</a></li>
 				</ul>
 				<a class="tel" href="tel:+18938392364">
 					+1 893 839-23-64
@@ -36,6 +36,7 @@
 	</header>
 	<section id="about" class="about">
 		<div class="container">
+			<a id="about" name="about"></a>
 			<h2>About the event</h2>
 			<div class="description">
 				<div class="desc-left pblock">
@@ -51,7 +52,8 @@
 				 </p>
 				</div>					
 			</div>
-			<div class="gallery">
+			<a id="tickets" name="tickets"></a>
+			<div class="gallery">				
 				<img src="./img/img1.jpg" alt="Event photo 1">
 				<img src="./img/img2.jpg" alt="Event photo 2">
 				<img src="./img/img3.jpg" alt="Event photo 2">
@@ -61,6 +63,7 @@
 	<footer id="footer" class="footer">
 		<div class="container">
 			<div class="footer-text">
+				<a id="contacts" name="contacts"></a>
 				<p>©1989-2020 Burning MAN project</p>
 				<p>WAYUP & Андрей Гаврилов</p>
 			</div>
