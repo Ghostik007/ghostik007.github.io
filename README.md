@@ -2,14 +2,8 @@
 
 # Daniil Garenskikh
 
-[Lesson 12](https://ghostik007.github.io/lesson_12/) - work with GitHub
-
-[Lesson 13](https://ghostik007.github.io/lesson_13/) - lesson_13 homework
-
-[Lesson 14](https://ghostik007.github.io/lesson_14/) - lesson_14 homework
-
-[Lesson 14 p2](https://ghostik007.github.io/lesson_14p2/) - lesson_14 part 2 homework
-
-[Burning Man](https://ghostik007.github.io/Burning_Man/) - lesson_14 homework
+Привет наставник!
+Мои домашние задания ты можешь посмотреть по этим ссылкам:
 
 
+[Lesson 0](https://ghostik007.github.io/WAYUP/lesson_0) - ДОМЕН, ХОСТИНГ И РАЗМЕЩЕНИЕ САЙТА
