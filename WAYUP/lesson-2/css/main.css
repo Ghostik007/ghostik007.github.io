@@ -12,7 +12,7 @@ div, p, input, header {
 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
 	padding: 0;
 }
@@ -27,16 +27,16 @@ h1 strong {
 }
 
 .container {
-	height: 778px;
+	width: 1200px;
+	margin: 0 auto;
 	/*border: 1px solid red;*/
+	padding-bottom: 302px;
 }
 
 .header {	
 	background: #000;
-	width: 1600px;
-	height: 727px;
-	margin: 0 auto;
-	padding: 41px 200px 0 200px;
+	padding: 41px 0 0 0;
+	margin-bottom: 90px;
 }
 
 .logo {
@@ -54,6 +54,7 @@ h1 strong {
 .nav {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .offer {
@@ -62,5 +63,5 @@ h1 strong {
 }
 
 .offer p {
-	width: 483px;
+	margin-top: 14px;
 }
