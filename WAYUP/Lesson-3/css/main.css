@@ -1,0 +1,301 @@
+@font-face {
+  font-family: 'PT Sans';
+  src: url('../fonts/PTSans-Regular.ttf');     
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'PT Sans', sans-serif;
+	color: #273456;
+	font-size: 16px;
+	/*letter-spacing: 0.03em;*/
+}
+
+div, p, a, input, header, form {
+	box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 38px;
+	text-align: center;
+	margin-bottom: 61px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+ul, li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+section {
+	padding-top: 87px;
+}
+
+.cta {
+	display: block;
+	width: 210px;	
+	padding: 16px 46px;
+	background: #FF3465;
+	border-radius: 10px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+}
+
+.btn-ghost {
+	width: 250px;
+	padding: 18px 30px;
+	font-weight: bold;
+	color: #FF3465;
+	text-align: center;
+	background: #FFF;
+	border: 1px solid #FF3465;
+	border-radius: 10px;
+	font-size: 15px;
+}
+
+.btn-ghost:hover {
+	background: #FF3465;
+	color: #fff;
+}
+
+.cta:hover {
+	background: #ED2353;
+	/*background: #d50134;*/
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	padding-top: 44px;
+	background: linear-gradient(102.19deg, rgba(100, 82, 36, 0.58) 0%, rgba(55, 86, 123, 0.89) 91.01%), url('../img/header-bg-3.jpg') no-repeat center top / cover;
+	color: #fff;
+	padding-bottom: 243px;
+}
+
+.header a {
+	color: #fff;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.logo{
+	display: block;
+	width: 150px;
+	padding-left: 36px;
+	margin-right: 162px;
+	font-weight: bold;
+	letter-spacing: 0.055em;
+	background: url('../img/logo.svg') no-repeat left center;
+}
+
+.nav .menu {
+	display: flex;
+	/*margin-right: 200px;*/
+}
+
+.nav .menu li {
+	margin-right: 51px;
+}
+
+.nav .menu a {
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+
+.nav .menu a:hover {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.21);
+}
+
+.call {
+	display: flex;
+	margin-left: auto;
+	font-size: 14px;
+	font-weight: bold;
+	align-items: center;
+
+}
+
+.call-btn {
+	display: block;
+	margin-left: 27px;
+	border: 1px solid #FFFFFF;
+	width: 156px;
+	padding: 8px 23px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.call-btn:hover {
+	background: #fff;
+	color: #3B4B81;
+}
+
+.offer {
+	margin-top: 165px;
+	text-align: center;
+
+}
+
+.offer h1 {
+	font-size: 50px;
+	margin-bottom: 10px;
+
+}
+
+.offer p {
+	width: 465px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	font-size: 17px;
+	line-height: 1.38em;
+}
+
+.offer .cta {
+	margin: 0 auto;
+}
+
+.destinations {
+	display: flex;
+	justify-content: space-between;
+}
+
+.destinations-item {
+	width: 277px;
+	box-shadow: 0px 17px 50px rgba(32, 40, 69, 0.14);
+	border-radius: 15px;
+	transition: all 0.5s ease;
+}
+
+.destinations-item:hover {
+	box-shadow: 0px 10px 20px rgba(32, 40, 69, 0.3);
+}
+
+.destinations-item img {
+	display: block;
+	border-radius: 15px 15px 0 0;
+}
+
+.destinations-content {
+	padding: 23px 34px 40px 23px;
+}
+
+.destinations-date {
+	font-size: 14px;
+	color: #FF3465;
+	margin: 4px 0 17px;
+}
+
+.destinations-details {
+	display: flex;
+}
+
+.destinations-details span {
+	background: #297FFF;
+	border-radius: 30px;
+	font-size: 13px;
+	color: #fff;
+	padding: 3px 13px;
+	margin-right: 6px;
+}
+
+.btn-routes {
+	display: block;
+	margin: 63px auto 0;
+}
+
+.about-content{
+	display: flex;
+	margin-left: 43px;
+	align-items: center;
+}
+
+.about-content img {
+	display: block;
+	border-radius: 0px 20px 20px 20px;
+	width: 585px;
+	height: 360px;
+}
+
+.about-text {
+	margin-left: 43px;
+}
+
+.about-text h3 {
+	margin-bottom: 21px;
+}
+
+.about-text p {
+	line-height: 1.5em;
+	margin-bottom: 25px;
+}
+
+.about-text p:last-child {
+	margin: 0;
+}
+
+.form {
+	width: 601px;
+	margin: 0 auto;
+	box-shadow: 0px 17px 50px rgba(32, 40, 69, 0.14);
+	border-radius: 20px;
+	text-align: center;
+	padding: 58px 64px 97px;
+}
+
+.form h3 {
+	width: 367px;
+	margin: 0 auto 37px;
+}
+
+.form input {
+	display: block;
+	width: 100%;
+	height: 59px;	
+	border: 1px solid rgba(39, 52, 86, 0.26);
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-size: 16px;
+	/*color: #273456 56%;*/
+	font-family: 'PT Sans', sans-serif;
+	padding: 19px 26px;
+	margin-bottom: 15px;
+}
+
+.form .cta {
+	width: 100%;
+	padding: 21px;
+	margin-top: 5px;
+	transition: all 0.5s ease;
+}
+
+.footer-text {
+	font-size: 15px;
+	color: rgba(41, 56, 111, 0.66);
+	text-align: center;
+	margin: 122px 0 112px;
+}
