@@ -12,4 +12,6 @@
 [Lesson 2](https://ghostik007.github.io/WAYUP/lesson-2/) - ОСНОВЫ HTML И CSS
 
 
-[Lesson 3](https://ghostik007.github.io/WAYUP/Lesson-3/) - ПОГРУЖЕНИЕ В ПРОФЕССИОНАЛЬНУЮ ВЕРСТКУ
+[Lesson 3](https://ghostik007.github.io/WAYUP/lesson-3-sample/) - ПОГРУЖЕНИЕ В ПРОФЕССИОНАЛЬНУЮ ВЕРСТКУ. ПРОЕКТ НА УРОКЕ
+
+[Lesson 3](https://ghostik007.github.io/WAYUP/lesson-3/) - ПОГРУЖЕНИЕ В ПРОФЕССИОНАЛЬНУЮ ВЕРСТКУ. ДОМАШНИЙ ПРОЕКТ
