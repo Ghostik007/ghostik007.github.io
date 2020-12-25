@@ -154,11 +154,11 @@ section {
 	margin-left: 75px;
 }
 
-.nav-slider-handler:hover {
+.nav-slider-handler a:hover {
 	color: #FF7D34;
 }
 
-.nav-slider-handler span {
+.nav-slider-handler a {
 	display: block;
 }
 
