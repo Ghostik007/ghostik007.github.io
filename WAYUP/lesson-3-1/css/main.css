@@ -162,6 +162,11 @@ section {
 	display: block;
 }
 
+.nav-slider-handler span {
+	display: block;
+	font-weight: bold;
+}
+
 .call {
 	display: flex;
 	margin-left: auto;
