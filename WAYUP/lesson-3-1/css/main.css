@@ -216,7 +216,7 @@ section {
 
 .scroll-down-handler {
 	display: block;
-	margin: 180 auto 0;
+	margin: 180px auto 0;
 	width: 15px;
 	height: 15px;
 	border-right: 1px solid #fff;
