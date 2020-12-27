@@ -1,0 +1,152 @@
+@media screen and (max-width: 1250px) {
+	.container {
+		width: 960px;		
+	}
+	.menu {
+		display: none;
+	}
+	.dropdown-menu{
+		display: flex;
+	}
+
+	.nav-slider-handler {
+		margin: 0;
+		/*margin-right: 126px;*/
+	}
+
+	.destinations-item {
+		width: 466px;
+		flex-direction: column;
+	}
+
+	.destinations-item img{
+		width: 100%;
+		border-radius: 15px 15px 0 0;
+	}	
+
+	.about-content {
+		flex-direction: column-reverse;
+	}
+
+	.about-text, .about-content img {
+		width: 100%;
+		height: auto;
+	}
+
+	.about-text {
+		margin-top: 40px;
+	}
+
+	.about-text h3 {
+		text-align: center; 
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	.btn-routes {
+		margin: 58px auto 0;
+	}
+
+	
+
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;		
+	}
+
+	.call-btn {
+		display: none;
+	}
+
+	.destinations-item {
+		width: 354px;
+	}
+
+	.call-communications {
+		display: none;
+	}
+
+	.contact-wrapper{
+		width: 100%;
+		justify-content: center;
+	}
+
+	.form h3 {
+		width: auto;
+		text-align: center;
+	}
+
+	.form .cta {
+		margin: 5px auto 0;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 546px;		
+	}
+
+	.nav-slider-handler {
+		display: none;
+	}
+
+	.destinations-item {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+
+	.container {
+		width: 100%;
+		padding: 0 15px;
+	}
+
+	.logo {
+		margin: 0;
+	}
+
+	.dropdown-menu {
+		margin-left: auto;
+	}
+
+	.offer h1 {
+		font-size: 30px;
+	}
+
+	.offer p {
+		width: 100%;
+	}
+
+	.call {
+		display: none;		
+	}
+
+	.destinations-details {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.destinations-details span{
+		margin-bottom: 7px;
+	}
+
+	.btn-ghost {
+		width: 100%;
+	}
+
+	.form {
+		padding: 30px 15px 60px;
+	}
+
+	.form .cta {
+		width: 100%;
+	}
+
+}
