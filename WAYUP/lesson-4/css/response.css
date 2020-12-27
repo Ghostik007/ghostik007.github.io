@@ -55,7 +55,7 @@
 
 @media screen and (max-width: 992px) {
 	.container {
-		width: 720px;		
+		width: 738px;		
 	}
 
 	.call-btn {
@@ -66,23 +66,29 @@
 		width: 354px;
 	}
 
-	.call-communications {
-		display: none;
-	}
-
-	.contact-wrapper{
+	
+.contact-wrapper{
 		width: 100%;
 		justify-content: center;
 	}
 
+	.form {
+		width: 100%;
+	}
+
 	.form h3 {
-		width: auto;
+		width: 100%;
 		text-align: center;
 	}
 
 	.form .cta {
 		margin: 5px auto 0;
 	}
+
+	.call-communications {
+		display: none;
+	}
+	
 
 }
 
