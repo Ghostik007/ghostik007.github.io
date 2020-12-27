@@ -16,3 +16,6 @@
 
 
 [Lesson 3](https://ghostik007.github.io/WAYUP/lesson-3-1/) - ПОГРУЖЕНИЕ В ПРОФЕССИОНАЛЬНУЮ ВЕРСТКУ. ДОМАШНИЙ ПРОЕКТ
+
+
+[Lesson 4](https://ghostik007.github.io/WAYUP/lesson-4/) - АДАПТИВНОСТЬ И ОТЗЫВЧИВОСТЬ
