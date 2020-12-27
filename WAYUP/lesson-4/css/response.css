@@ -1,4 +1,5 @@
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1260px) {
+
 	.container {
 		width: 960px;		
 	}
@@ -11,11 +12,10 @@
 
 	.nav-slider-handler {
 		margin: 0;
-		/*margin-right: 126px;*/
 	}
 
 	.destinations-item {
-		width: 466px;
+		width: 465px;
 		flex-direction: column;
 	}
 
@@ -46,14 +46,15 @@
 	}
 
 	.btn-routes {
-		margin: 58px auto 0;
+		margin: 45px auto 0;
 	}
-
-	
 
 }
 
+
+
 @media screen and (max-width: 992px) {
+
 	.container {
 		width: 738px;		
 	}
@@ -65,7 +66,6 @@
 	.destinations-item {
 		width: 354px;
 	}
-
 	
 .contact-wrapper{
 		width: 100%;
@@ -89,10 +89,12 @@
 		display: none;
 	}
 	
-
 }
 
+
+
 @media screen and (max-width: 768px) {
+
 	.container {
 		width: 546px;		
 	}
@@ -104,7 +106,10 @@
 	.destinations-item {
 		width: 100%;
 	}
+
 }
+
+
 
 @media screen and (max-width: 576px) {
 
@@ -117,8 +122,17 @@
 		margin: 0;
 	}
 
+	.call {
+		display: none;		
+	}
+
 	.dropdown-menu {
 		margin-left: auto;
+	}
+
+	.offer {
+		margin-top: 103px;
+		margin-bottom: 90px;
 	}
 
 	.offer h1 {
@@ -127,10 +141,24 @@
 
 	.offer p {
 		width: 100%;
+		font-style: 16px;
 	}
 
-	.call {
-		display: none;		
+	.scroll-down-handler {
+		margin-top: 50px;
+	}
+
+	section {
+		padding-top: 79px;
+	}
+
+	h2 {
+		font-size: 24px;
+		margin-bottom: 42px;
+	}
+
+	h3 {
+		font-size: 18px;
 	}
 
 	.destinations-details {
@@ -143,16 +171,28 @@
 		margin-bottom: 7px;
 	}
 
-	.btn-ghost {
+	.btn-routes {
 		width: 100%;
 	}
 
 	.form {
-		padding: 30px 15px 60px;
+		padding: 42px 30px 65px;
 	}
 
 	.form .cta {
 		width: 100%;
+	}
+
+	.form input {
+		height: 51px;
+	}
+
+	.form .cta {
+		padding: 18px 0;
+	}
+
+	.footer {
+		padding: 90px 0;
 	}
 
 }
