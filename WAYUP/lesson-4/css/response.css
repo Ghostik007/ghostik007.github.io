@@ -70,6 +70,7 @@
 .contact-wrapper{
 		width: 100%;
 		justify-content: center;
+		flex-direction: column;
 	}
 
 	.form {
@@ -86,8 +87,14 @@
 	}
 
 	.call-communications {
-		display: none;
+		flex-direction: row;
+		margin-top: 40px;
 	}
+
+ .communications-text {
+ 	margin: 0px;
+ 	margin-left: 20px;
+ }	
 	
 }
 
@@ -193,6 +200,15 @@
 
 	.footer {
 		padding: 90px 0;
+	}
+
+}
+
+
+@media screen and (max-width: 340px) {
+	
+	.communications-logo{
+		display: none;
 	}
 
 }
