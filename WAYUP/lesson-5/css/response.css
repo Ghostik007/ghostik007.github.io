@@ -188,15 +188,7 @@
 
 	.form .cta {
 		width: 100%;
-	}
-
-	.form input {
-		height: 51px;
-	}
-
-	.form .cta {
-		padding: 18px 0;
-	}
+	}	
 
 	.footer {
 		padding: 90px 0;
@@ -228,7 +220,7 @@
 
 }
 
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 550px) {
 	
 	.sidebar-menu {
 		margin-top: 30px;
@@ -239,8 +231,20 @@
 	}
 
 	.order-to-call-form {
-		margin-top: 40px;
-		padding: 30px;
+		margin-top: 30px;
+		padding: 20px;
+	}
+
+	.close-form-btn {
+		margin-top: -25px;
+	}
+
+	.form input {
+		height: 51px;
+	}
+
+	.form .cta {
+		padding: 18px 0;
 	}
 
 }
