@@ -71,4 +71,13 @@ var countryCounter = 1;
 		$("#home").css('background', newCountryPhoto);		  
 	});
 
+	$(window).scroll(function() {
+   let position = $(".scroll-to-top").offset().top;
+   $(".scroll-to-top").css('visibility', ( position >= 1510 ? 'visible' : 'hidden') );  
+	});
+
+	$(".scroll-to-top").on("click", function(e){
+  ScrollTo(this,0,e);
+	});
+
 })
