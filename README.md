@@ -19,3 +19,6 @@
 
 
 [Lesson 4](https://ghostik007.github.io/WAYUP/lesson-4/) - АДАПТИВНОСТЬ И ОТЗЫВЧИВОСТЬ
+
+
+[Lesson 5](https://ghostik007.github.io/WAYUP/lesson-5/) - РАБОТА С ПЛАГИНАМИ JQUERY

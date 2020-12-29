@@ -1,0 +1,229 @@
+@media screen and (max-width: 1260px) {
+
+	.container {
+		width: 960px;		
+	}
+	.menu {
+		display: none;
+	}
+	.dropdown-menu{
+		display: flex;
+	}
+
+	.nav-slider-handler {
+		margin: 0;
+	}
+
+	.destinations-item {
+		width: 465px;
+		flex-direction: column;
+	}
+
+	.destinations-item img{
+		width: 100%;
+		border-radius: 15px 15px 0 0;
+	}	
+
+	.about-content {
+		flex-direction: column-reverse;
+	}
+
+	.about-text, .about-content img {
+		width: 100%;
+		height: auto;
+	}
+
+	.about-text {
+		margin-top: 40px;
+	}
+
+	.about-text h3 {
+		text-align: center; 
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	.btn-routes {
+		margin: 45px auto 0;
+	}
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+	.container {
+		width: 738px;		
+	}
+
+	.call-btn {
+		display: none;
+	}
+
+	.destinations-item {
+		width: 354px;
+	}
+	
+.contact-wrapper{
+		width: 100%;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.contact-wrapper .form {
+		width: 100%;
+	}
+
+	.form h3 {
+		width: 100%;
+		text-align: center;
+	}
+
+	.form .cta {
+		margin: 5px auto 0;
+	}
+
+	.call-communications {
+		flex-direction: row;
+		margin-top: 40px;
+	}
+
+ .communications-text {
+ 	margin: 0px;
+ 	margin-left: 20px;
+ }	
+	
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+	.container {
+		width: 546px;		
+	}
+
+	.nav-slider-handler {
+		display: none;
+	}
+
+	.destinations-item {
+		width: 100%;
+	}
+
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+	.container {
+		width: 100%;
+		padding: 0 15px;
+	}
+
+	.logo {
+		margin: 0;
+	}
+
+	.call {
+		display: none;		
+	}
+
+	.dropdown-menu {
+		margin-left: auto;
+	}
+
+	.offer {
+		margin-top: 103px;
+		margin-bottom: 90px;
+	}
+
+	.offer h1 {
+		font-size: 30px;
+	}
+
+	.offer p {
+		width: 100%;
+		font-style: 16px;
+	}
+
+	.scroll-down-handler {
+		margin-top: 50px;
+	}
+
+	section {
+		padding-top: 79px;
+	}
+
+	h2 {
+		font-size: 24px;
+		margin-bottom: 42px;
+	}
+
+	h3 {
+		font-size: 18px;
+	}
+
+	.destinations-details {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.destinations-details span{
+		margin-bottom: 7px;
+	}
+
+	.btn-routes {
+		width: 100%;
+	}
+
+	.form {
+		padding: 42px 30px 65px;
+	}
+
+	.form .cta {
+		width: 100%;
+	}
+
+	.form input {
+		height: 51px;
+	}
+
+	.form .cta {
+		padding: 18px 0;
+	}
+
+	.footer {
+		padding: 90px 0;
+	}
+
+	.sidebar-menu {
+		margin: 50px auto;
+	}
+
+	.sidebar-menu li {
+		text-align: center;
+	}
+
+}
+
+
+@media screen and (max-width: 340px) {
+	
+	.communications-logo{
+		display: none;
+	}
+
+	.order-to-call {
+		padding: 0 15px;
+	}
+	.order-to-call .form {
+		width: 100%;
+	}
+
+}
