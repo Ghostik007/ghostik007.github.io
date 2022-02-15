@@ -23,4 +23,4 @@
 
 [Lesson 5](https://ghostik007.github.io/WAYUP/lesson-5/) - РАБОТА С ПЛАГИНАМИ JQUERY
 
-[TEST](https://ghostik007.github.io/WAYUP/algoritmika/) - TEST
+[TEST](https://ghostik007.github.io/algoritmika/) - TEST
